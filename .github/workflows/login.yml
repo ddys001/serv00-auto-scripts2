@@ -6,6 +6,7 @@ on:
   schedule:
     - cron: '7 12 */7 * *'
 
+
 env:
   ACCOUNTS_JSON: ${{ secrets.ACCOUNTS_JSON }}
 
